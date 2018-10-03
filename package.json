@@ -1,10 +1,10 @@
 {
   "name": "hacl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "OCaml bindings to hacl-star generated C code (https://github.com/mitls/hacl-star)",
   "repository": "https://github.com/mengerhq/ocaml-hacl",
   "esy": {
-    "build": [["dune", "build"]]
+    "build": [["dune", "build", "@install"]]
   },
   "scripts": {
     "clean": "dune clean",
