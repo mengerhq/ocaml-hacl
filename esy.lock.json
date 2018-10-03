@@ -1,5 +1,5 @@
 {
-  "hash": "9ed3a51ccc04d8d43a948098814ba219",
+  "hash": "a7d80c8ab393c6b4d8bb8d701054ca55",
   "root": "ocaml-hacl@path:.",
   "node": {
     "ocaml-hacl@path:.": {
@@ -13,9 +13,8 @@
       "dependencies": [
         "@esy-ocaml/merlin@3.0.5005", "@opam/alcotest@opam:0.8.3",
         "@opam/bigstring@opam:0.2", "@opam/dune@opam:1.3.0",
-        "@opam/fmt@opam:0.8.5", "@opam/hex@opam:1.2.0",
-        "@opam/ocplib-endian@opam:1.0", "@opam/zarith@opam:1.7",
-        "ocaml@4.7.2"
+        "@opam/hex@opam:1.2.0", "@opam/ocplib-endian@opam:1.0",
+        "@opam/zarith@opam:1.7", "ocaml@4.7.2"
       ]
     },
     "ocaml@4.7.2": {
@@ -662,11 +661,11 @@
           "name": "base-unix",
           "version": "base",
           "opam":
-            "opam-version: \"2.0\"\nname: \"base-unix\"\nversion: \"base\"\nmaintainer: \"https://github.com/ocaml/opam-repository/issues\"\ndepends: [\"ocaml\"]",
+            "opam-version: \"2.0\"\nname: \"base-unix\"\nversion: \"base\"\nsynopsis: \"\"\ndescription: \"Unix library distributed with the OCaml compiler\"\nmaintainer: \"https://github.com/ocaml/opam-repository/issues\"",
           "override": null
         }
       },
-      "dependencies": [ "@esy-ocaml/substs@0.0.1", "ocaml@4.7.2" ]
+      "dependencies": [ "@esy-ocaml/substs@0.0.1" ]
     },
     "@opam/base-bytes@opam:base": {
       "record": {
@@ -697,11 +696,11 @@
           "name": "base-bigarray",
           "version": "base",
           "opam":
-            "opam-version: \"2.0\"\nname: \"base-bigarray\"\nversion: \"base\"\nmaintainer: \"https://github.com/ocaml/opam-repository/issues\"\ndepends: [\"ocaml\"]",
+            "opam-version: \"2.0\"\nname: \"base-bigarray\"\nversion: \"base\"\nsynopsis: \"\"\ndescription: \"Bigarray library distributed with the OCaml compiler\"\nmaintainer: \"https://github.com/ocaml/opam-repository/issues\"",
           "override": null
         }
       },
-      "dependencies": [ "@esy-ocaml/substs@0.0.1", "ocaml@4.7.2" ]
+      "dependencies": [ "@esy-ocaml/substs@0.0.1" ]
     },
     "@opam/astring@opam:0.8.3": {
       "record": {
